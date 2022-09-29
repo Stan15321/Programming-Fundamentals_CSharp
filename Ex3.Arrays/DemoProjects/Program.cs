@@ -16,9 +16,12 @@ namespace DemoProjects
             //}
             //Console.WriteLine( );
 
+
             int input = int.Parse(Console.ReadLine());
             int[] carriges = new int [input];
             
+
+
 
             for (int i = 0; i < input; i++)
             {
@@ -42,9 +45,9 @@ namespace DemoProjects
             }
             //Console.WriteLine(string.Join(",", newInteger));
 
-            foreach (var item in newInteger)
+            foreach (var numbers in newInteger)
             {
-                Console.Write(item + " ");
+                Console.Write(numbers + " ");
             }
             
         }
