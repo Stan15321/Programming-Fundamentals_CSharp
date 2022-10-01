@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex5.TopInteger", "Ex5.TopIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex6.EqualSums", "Ex6.EqualSums\Ex6.EqualSums.csproj", "{35874C28-B626-4CB5-8650-817D5D528C5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex8.MagicSum", "Ex8.MagicSum\Ex8.MagicSum.csproj", "{CD886A48-6046-4252-B1F9-F5128B9D0FEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex7.MaxSequenceOfEqualSum", "Ex7.MaxSequenceOfEqualSum\Ex7.MaxSequenceOfEqualSum.csproj", "{B6836C87-AACC-429F-B3BB-3A3612AB25C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{35874C28-B626-4CB5-8650-817D5D528C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35874C28-B626-4CB5-8650-817D5D528C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35874C28-B626-4CB5-8650-817D5D528C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD886A48-6046-4252-B1F9-F5128B9D0FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD886A48-6046-4252-B1F9-F5128B9D0FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD886A48-6046-4252-B1F9-F5128B9D0FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD886A48-6046-4252-B1F9-F5128B9D0FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6836C87-AACC-429F-B3BB-3A3612AB25C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6836C87-AACC-429F-B3BB-3A3612AB25C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6836C87-AACC-429F-B3BB-3A3612AB25C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6836C87-AACC-429F-B3BB-3A3612AB25C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
