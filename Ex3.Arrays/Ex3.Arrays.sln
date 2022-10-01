@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32510.428
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex1.Train", "Ex1.Train\Ex1.Train.csproj", "{A8BD0A16-ED12-499A-95B0-ED601D513379}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex1.Train", "Ex1.Train\Ex1.Train.csproj", "{A8BD0A16-ED12-499A-95B0-ED601D513379}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex2.Common_Elements", "Ex2.Common_Elements\Ex2.Common_Elements.csproj", "{79A395F7-8607-4401-9053-184D1DABE0B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex2.Common_Elements", "Ex2.Common_Elements\Ex2.Common_Elements.csproj", "{79A395F7-8607-4401-9053-184D1DABE0B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoProjects", "DemoProjects\DemoProjects.csproj", "{D58AF745-A26E-43B5-BA0D-49B4734E1D67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoProjects", "DemoProjects\DemoProjects.csproj", "{D58AF745-A26E-43B5-BA0D-49B4734E1D67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex3.Zig-zag_Array", "Ex3.Zig-zag_Array\Ex3.Zig-zag_Array.csproj", "{3F17B938-1DA2-4D9B-8AD1-DC133F8EFDAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex3.Zig-zag_Array", "Ex3.Zig-zag_Array\Ex3.Zig-zag_Array.csproj", "{3F17B938-1DA2-4D9B-8AD1-DC133F8EFDAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex4.Array_rotation", "Ex4.Array_rotation\Ex4.Array_rotation.csproj", "{A6FD8AA0-8E3A-46DC-9B8A-3D38CA7D72A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex4.Array_rotation", "Ex4.Array_rotation\Ex4.Array_rotation.csproj", "{A6FD8AA0-8E3A-46DC-9B8A-3D38CA7D72A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex5.TopInteger", "Ex5.TopInteger\Ex5.TopInteger.csproj", "{1FF9E124-8655-41EB-972A-4F510DAD832B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex6.EqualSums", "Ex6.EqualSums\Ex6.EqualSums.csproj", "{35874C28-B626-4CB5-8650-817D5D528C5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{A6FD8AA0-8E3A-46DC-9B8A-3D38CA7D72A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6FD8AA0-8E3A-46DC-9B8A-3D38CA7D72A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6FD8AA0-8E3A-46DC-9B8A-3D38CA7D72A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF9E124-8655-41EB-972A-4F510DAD832B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF9E124-8655-41EB-972A-4F510DAD832B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF9E124-8655-41EB-972A-4F510DAD832B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF9E124-8655-41EB-972A-4F510DAD832B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35874C28-B626-4CB5-8650-817D5D528C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35874C28-B626-4CB5-8650-817D5D528C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35874C28-B626-4CB5-8650-817D5D528C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35874C28-B626-4CB5-8650-817D5D528C5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
