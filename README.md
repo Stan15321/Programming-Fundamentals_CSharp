@@ -19,4 +19,6 @@ In this course we gonna learn about this following:
 
 -Text Processing
 
+-Regular Expressions
+
 
