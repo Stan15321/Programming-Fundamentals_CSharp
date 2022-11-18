@@ -1,4 +1,4 @@
-# Programming-Fundamentals_CSharp
+# Programming Fundamentals C#
 Repository for the course Programming Fundamentals with C# in SoftUni:
 
 In this course we gonna learn about this following: 
@@ -18,5 +18,7 @@ In this course we gonna learn about this following:
 -Associative Arrays
 
 -Text Processing
+
+-Regular Expressions
 
 
