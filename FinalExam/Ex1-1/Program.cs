@@ -8,11 +8,11 @@ namespace Ex1_1
     {
         static void Main(string[] args)
         {
+            string password = Console.ReadLine();
             string input;
-            
             while ((input=Console.ReadLine()) != "Complete")
             {
-                string password = input;
+               
                 string[] commandArgs = input.Split(' ');
                 string command = commandArgs[0];
                 if (command == "Make")
@@ -21,15 +21,15 @@ namespace Ex1_1
                     int index = int.Parse(commandArgs[2]);
                     if (commandAbout == "Upper")
                     {
-                        char charToWorkWith = input[index];
+                        char charToWorkWith = password[index];
                         password = password.Remove(index, 1).Insert(index, char.ToUpper(charToWorkWith).ToString());
-                        Console.WriteLine(input);
+                        Console.WriteLine(password);
                     }
                     else if (commandAbout == "Lower")
                     {
-                        char charToWorkWith = input[index];
+                        char charToWorkWith = password[index];
                         password = password.Remove(index, 1).Insert(index, char.ToLower(charToWorkWith).ToString());
-                        Console.WriteLine(input);
+                        Console.WriteLine(password);
                     }
                 }
                 else if (command == "Insert")
@@ -39,7 +39,7 @@ namespace Ex1_1
                     if (!(indexItoInsert < 0 | indexItoInsert > input.Length))
                     {
                     password = password.Insert(indexItoInsert, character.ToString());
-                    Console.WriteLine(input);
+                    Console.WriteLine(password);
                     }
                 }
                 else if (command == "Replace")
@@ -50,10 +50,10 @@ namespace Ex1_1
                     if (input.Contains(character))
                     {
                         int asciiValue = Convert.ToInt32(character);
-                        asciiValue += character;
+                        asciiValue += value;
                         
                         password = password.Replace(character, (char)asciiValue);
-                        Console.WriteLine(input);
+                        Console.WriteLine(password);
                     }
                 }
                 else if (command == "Validation")
@@ -63,19 +63,19 @@ namespace Ex1_1
                         Console.WriteLine("Password must be at least 8 characters long!");
                     }
                     string pattern = @"[A-z+0-9+_]{1,}";
-                    if (!Regex.IsMatch(input, pattern))
+                    if (!Regex.IsMatch(password, pattern))
                     {
                         Console.WriteLine("Password must consist only of letters, digits and _!");
                     }
-                    if (!input.Any(char.IsUpper))
+                    if (!password.Any(char.IsUpper))
                     {
                         Console.WriteLine("Password must consist at least one uppercase letter!");
                     }
-                    if (!input.Any(char.IsLower))
+                    if (!password.Any(char.IsLower))
                     {
                         Console.WriteLine("Password must consist at least one lowercase letter!");
                     }
-                    if (!input.Any(char.IsDigit))
+                    if (!password.Any(char.IsDigit))
                     {
                         Console.WriteLine("Password must consist at least one digit!");
                     }
