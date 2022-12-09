@@ -1,4 +1,4 @@
-# Programming Fundamentals with C#
+# Programming Fundamentals with C#(Completed with 6.00)
 Repository for the course "Programming Fundamentals with C#" in SoftUni.
 
 In this course we gonna learn about this following: 
