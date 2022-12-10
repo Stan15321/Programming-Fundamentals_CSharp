@@ -3,22 +3,24 @@ Repository for the course "Programming Fundamentals with C#" in SoftUni.
 
 In this course we gonna learn about this following: 
 
-- HTTP Basics 
+- HTTP Basics. 
 
-- Arrays
+- Arrays.
 
-- HTML & CSS Basics 
+- HTML & CSS Basics.
 
-- Methods 
+- Methods. 
 
-- List 
+- List.
 
-- Objects and Classes
+- Objects and Classes.
 
-- Associative Arrays
+- Associative Arrays.
 
-- Text Processing
+- Text Processing.
 
-- Regular Expressions
+- Regular Expressions.
+
+- Bitwise Operations.
 
 
