@@ -22,4 +22,3 @@ In this course we gonna learn about this following:
 
 - Bitwise Operations.
 
-
