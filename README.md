@@ -25,4 +25,3 @@ In this course we gonna learn about this following:
 - Database Basics.
 
 - QA Introduction.
-
